@@ -53,7 +53,7 @@ setup(
         'requests>=2.18.4',
         'six>=1.11.0',
         'tqdm>=4.17.1',
-        'urllib3>=1.22',
+        'urllib3>=1.22,<1.26',
         'unidecode>=0.04.21',
         ],
     extras_require = extras_require,
